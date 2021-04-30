@@ -11,7 +11,7 @@
     "moduleType": "Video",
     "baseURL": "https://gogoanime.vc/",
     "moduleDeveloperSite": "https://github.com/code002xcode016/absolute-module/blob/main/moduleTemplate.json",
-    "UpdateSite": "https://github.com/code002xcode016/absolute-module/blob/main/moduleTemplate.json",
+    "UpdateSite": "https://raw.githubusercontent.com/code002xcode016/absolute-module/main/moduleTemplate.json",
     "preferedServer": "",
     "preferedDownloadServer": "",
     "blackListed": [
@@ -39,6 +39,117 @@
     ]
   },
   "mainPage": [
+    {
+      "request": {
+        "url": "https://gogoanime.vc/",
+        "method": "get",
+        "headers": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ],
+        "httpBody": null
+      },
+      "extra": {
+        "commands": [
+          {
+            "commandName": "",
+            "params": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "extraInfo": [
+          {
+            "key": "",
+            "value": ""
+          }
+        ]
+      },
+      "javascriptConfig": {
+        "removeJavascript": true,
+        "loadInWebView": false,
+        "javaScript": ""
+      },
+      "output": [
+        {
+          "cellDesing": "normal1",
+          "orientation": "vertical",
+          "defaultLayout": "wide",
+          "paging": "",
+          "section": {
+            "sectionName": "",
+            "separator": false
+          },
+          "layout": {
+            "insets": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "visibleCellsWidthS": 2,
+            "visibleCellsWidthM": 2,
+            "visibleCellsWidthL": 2,
+            "visibleCellsHeight": 2,
+            "heightForVisibleCells": 400,
+            "cellSize": {
+              "width": 300,
+              "height": 300
+            },
+            "ratio": {
+              "inRelation": "width",
+              "number1": 1,
+              "number2": 2
+            },
+            "constant": {
+              "width": 1,
+              "height": 2
+            },
+            "horizontalSpacing": 0,
+            "verticalSpacing": 0
+          },
+          "data": [
+            {
+              "image": {
+                "url": "",
+                "method": "get",
+                "headers": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "httpBody": null
+              },
+              "title": "",
+              "description": "",
+              "field1": "",
+              "field2": "",
+              "field3": "",
+              "field4": "",
+              "openInWebView" : false,
+              "isChapter": false,
+              "link": {
+                "url": "",
+                "method": "",
+                "headers": [
+                  {
+                    "key": "",
+                    "value": ""
+                  }
+                ],
+                "httpBody": null
+              }
+            }
+          ]
+        }
+      ]
+    },
     {
       "request": {
         "url": "",
